@@ -1,0 +1,42 @@
+.data-visualization {
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  padding: 80px 80px 80px 0;
+
+  position: relative;
+
+  background-image: url('../../Static/Images/space.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1 {
+    z-index: 5;
+    position: absolute;
+
+    bottom: 80px;
+    left: 0;
+
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+
+    padding-left: 80px;
+  }
+
+  span.label {
+    display: inline-block;
+    background: rgba(0,0,0,0.7);
+    border-radius: 3px;
+    color: #ffffff;
+    float: left;
+    padding: 5px 10px;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  span.highlight {
+    font-weight: lighter;
+    font-style: italic;
+    color: #0d6c94;
+  }
+}
